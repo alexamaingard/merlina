@@ -1,0 +1,147 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.header {
+  height: 5vh;
+  width: 100vw;
+  background-color: #8892b0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 30px 0 30px;
+  position: fixed;
+  top: 0;
+	z-index: 100;
+}
+
+.header ul {
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.header li {
+  padding: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: white;
+}
+
+#resume-button {
+  border: 1px solid cyan;
+  border-radius: 5px;
+  height: fit-content;
+  color: cyan;
+}
+
+#resume-button:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+  color: cyan;
+}
+
+.header a:hover {
+  color: cyan;
+	text-decoration: 1px solid underline;
+	text-underline-offset: 12px;
+}
+
+.profile-page {
+  /* BACKGROUND */
+  height: 100vh;
+  width: 100vw;
+  background-color: #8892b0;
+  /* FONT */
+  line-height: 1.2;
+  /* DISPLAY */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-info {
+  height: 20vh;
+  width: 50vw;
+  display: flex;
+  align-items: flex-end;
+	border-left: 1px solid #8892b0;
+}
+
+.profile-info-left h1 {
+  font-size: 3.2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.profile-info-left h2 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 200;
+}
+
+.profile-info-left h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.profile-info-left p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+#profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.social-media {
+	height: 13vh;
+	width: 5vw;
+	position: fixed;
+	left: 0;
+	right: 95vw;
+	top: 87vh;
+	z-index: 0;
+}
+
+.social-media ul {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.social-media ul {
+	list-style: none;
+	padding-left: 0;
+	padding: 10px;
+}
+
+.social-media img {
+	width: 46px;
+	height: 46px;
+}
+
+.about-me-page,
+.portfolio-page,
+.contact-page {
+	border-bottom: 1px solid black;
+  /* BACKGROUND */
+  height: 100vh;
+  width: 100vw;
+  background-color: #8892b0;
+  /* FONT */
+  line-height: 1.2;
+  /* DISPLAY */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
