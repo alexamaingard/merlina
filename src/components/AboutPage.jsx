@@ -155,6 +155,9 @@ export const AboutPage = () => {
                         99% of my free time.
                     </p>
                     <p>
+                        I speak English and Spanish on a native level and German on an intermediate
+                        level.</p>
+                    <p>
                         Graduated from a 6-months long intensive Bootcamp and
                         open to new opportunities.
                     </p>
