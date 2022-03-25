@@ -1,0 +1,106 @@
+:root{
+    --about-p-font-size: 1.2rem;
+    --circle-size: 300px;
+    --image-offset: -0.75rem;
+    --about-me-width: 55vw;
+    --about-me-gap: 120px;
+    --about-me-right-width: calc(var(--circle-size) - var(--image-offset) * 2);
+    --about-me-left-width: calc(var(--about-me-width) - var(--about-me-right-width) - var(--about-me-gap));
+}
+
+.about-me-page {
+    width: 100vw;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-info {
+    height: fit-content;
+    width: var(--about-me-width);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--about-me-gap);
+}
+
+.about-info-left {
+    width: calc(var(--about-me-width) - var(--about-me-right-width));
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-info-left h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    padding: 13px 0 0 13px;
+}
+
+.about-info-left p {
+    font-size: var(--about-p-font-size);
+    color: black;
+}
+
+.about-info-left svg {
+    width: var(--about-p-font-size);
+    height: var(--about-p-font-size);
+    stroke:black;
+    stroke-width: 3px;
+    margin: 0 5px 0 5px;
+}
+
+.tech-lists-container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(223, 223, 223, 0.383);
+}
+
+.tech-lists {
+    display: flex;
+    gap: 60px;
+}
+
+.about-info-left ul {
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.tech-lists ul li::before {
+    content: "➳";
+    padding-right: 8px;
+    font-size: 25px;
+    color: white;
+}
+
+.about-info-right {
+    width: var(--about-me-right-width);
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#circle,
+#profile-pic {
+    width: var(--circle-size);
+    height: var(--circle-size);
+    min-width: var(--circle-size);
+    min-height: var(--circle-size);
+    border-radius: 50%;
+}
+
+#circle{
+    border: 2px solid white;
+}
+
+#profile-pic {
+    margin-top: var(--image-offset);
+    margin-bottom: calc(var(--image-offset) * 2);
+    margin-left: calc(var(--image-offset) * 2);
+    margin-right: calc(var(--image-offset) * 2);
+}
