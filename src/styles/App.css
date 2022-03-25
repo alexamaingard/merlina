@@ -1,21 +1,35 @@
 body {
-  font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
-	scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: var(--background);
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
 }
 
 .about-me-page,
 .portfolio-page,
 .contact-page {
 	border-bottom: 1px solid black;
-  /* BACKGROUND */
-  height: 100vh;
-  width: 100vw;
-  background-color: #8892b0;
-  /* FONT */
-  line-height: 1.2;
-  /* DISPLAY */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    /* BACKGROUND */
+    height: 100vh;
+    width: 100vw;
+    /* FONT */
+    line-height: 1.2;
+    /* DISPLAY */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root{
+    /* Colors */
+    --background: #8892b0;
+    --custom-cyan: rgb(136, 255, 255);
+    --custom-cyan-low-op: rgb(136, 255, 255, 0.1);
+    /* Transitions */
+    --sm-icon-base-transition: -49px;
 }
