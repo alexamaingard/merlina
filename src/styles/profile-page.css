@@ -1,22 +1,17 @@
 .profile-page {
-    /* BACKGROUND */
     height: 100vh;
     width: 100vw;
-    background-color: #8892b0;
-    /* FONT */
     line-height: 1.4;
-    /* DISPLAY */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .profile-info {
-    height: 40vh;
-    width: 50vw;
+    height: fit-content;
+    width: 55vw;
     display: flex;
     align-items: flex-end;
-    border-left: 1px solid #8892b0;
 }
 
 .profile-info-left h1 {
@@ -39,10 +34,4 @@
 .profile-info-left p {
     font-size: 1.5rem;
     font-weight: 300;
-}
-
-#profile-pic {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
 }
