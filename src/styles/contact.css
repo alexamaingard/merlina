@@ -1,0 +1,58 @@
+.contact-page {
+    padding-top: var(--page-gap);
+    height: fit-content;
+    width: 100vw;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    gap: var(--inner-page-gap);
+}
+
+.contact-info h2 {
+    width: fit-content;
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    padding: 13px 0 0 13px;
+}
+
+.contact-text-container {
+    display: flex;
+}
+
+.contact-text {
+    width: 60ch;
+}
+
+.contact-text p {
+    font-size: var(--p-font-size);
+    color: black;
+}
+
+.contact-action {
+    display: flex;
+}
+
+#say-hi {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: var(--custom-cyan);
+    border: 1px solid var(--custom-cyan);
+    border-radius: 10px;
+}
+
+#say-hi:hover {
+    background-color: var(--custom-cyan-low-op);
+}
