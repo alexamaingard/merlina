@@ -1,3 +1,7 @@
+:root {
+    --sm-icon-base-transition: -49px;
+}
+
 .social-media {
 	height: 12vh;
 	width: 5vw;
