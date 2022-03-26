@@ -1,5 +1,6 @@
 :root{
     --background: #8892b0;
+    --scrollbar-thumb: #646f8f;
     --custom-cyan: rgb(136, 255, 255);
     --custom-cyan-low-op: rgb(136, 255, 255, 0.1);
     --page-gap: 150px;
@@ -10,9 +11,19 @@
 body {
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
+    overflow-y: scroll;
     background-color: var(--background);
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: .6rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: 20px;
 }
