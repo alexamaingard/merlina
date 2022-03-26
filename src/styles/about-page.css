@@ -1,10 +1,8 @@
 :root{
     --circle-size: 300px;
-    --image-offset: -0.75rem;
-    --about-me-width: 55vw;
     --about-me-gap: 120px;
     --about-me-right-width: calc(var(--circle-size) - var(--image-offset) * 2);
-    --about-me-left-width: calc(var(--about-me-width) - var(--about-me-right-width) - var(--about-me-gap));
+    --about-me-left-width: calc(var(--page-content-width) - var(--about-me-right-width) - var(--about-me-gap));
 }
 
 .about-me-page {
@@ -17,22 +15,22 @@
 }
 
 .about-me-info {
-    width: var(--about-me-width);
+    width: var(--page-content-width);
     display: flex;
     align-items: flex-start;
     gap: var(--about-me-gap);
 }
 
 .about-info-left {
-    width: calc(var(--about-me-width) - var(--about-me-right-width));
+    width: calc(var(--page-content-width) - var(--about-me-right-width));
     display: flex;
     flex-direction: column;
     gap: var(--inner-page-gap);
 }
 
 .about-info-left h2 {
-    font-size: 2.4rem;
-    font-weight: 500;
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weigth);
     text-transform: uppercase;
     color: white;
     border-left: 1px solid white;

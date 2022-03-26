@@ -9,7 +9,7 @@
 }
 
 .contact-info {
-    width: 55vw;
+    width: var(--page-content-width);
     display: flex;
     flex-direction: column;
     gap: var(--inner-page-gap);
@@ -17,8 +17,8 @@
 
 .contact-info h2 {
     width: fit-content;
-    font-size: 2.4rem;
-    font-weight: 500;
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weigth);
     text-transform: uppercase;
     color: white;
     border-left: 1px solid white;
