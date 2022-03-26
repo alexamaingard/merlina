@@ -5,9 +5,9 @@ export const ProfilePage = () => {
         <section className='profile-page' id='profile'>
             <div className='profile-info'>
                 <div className='profile-info-left'>
-                    <h2>Hello, I'm</h2>
+                    <h3>Hello, I'm</h3>
                     <h1>Alexa Maingard</h1>
-                    <h3>I create things that live on the internet.</h3>
+                    <h2>I create things that live on the internet.</h2>
                     <p>
                         Full Stack Software Developer with a background in social media management.
                         Currently focused on ...
