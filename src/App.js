@@ -5,6 +5,7 @@ import { AboutPage } from "./components/AboutPage";
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Header } from "./components/Header";
+import { Portfolio } from './components/Portfolio';
 import { ProfilePage } from "./components/ProfilePage";
 import { SocialMedia } from "./components/SocialMedia";
 
@@ -19,6 +20,7 @@ export const App = () => {
             <ProfilePage />
             <Fade>
                 <AboutPage />
+                <Portfolio />
                 <Contact />
             </Fade>
             {/* <section>

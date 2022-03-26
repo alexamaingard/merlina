@@ -1,0 +1,82 @@
+:root {
+    --portfolio-image-width: 300px;
+    --portfolio-image-height: 200px;
+    --margin-outter-frame: 35px;
+}
+
+.portfolio-page {
+    padding-top: var(--page-gap);
+    height: fit-content;
+    width: 100vw;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-info {
+    width: 55vw;
+}
+
+.portfolio-info h2 {
+    /* width: fit-content; */
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weigth);
+    text-transform: uppercase;
+    color: white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    padding: 13px 13px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.portfolio-project {
+    padding-top: calc(var(--image-offset) * (-4));
+    display: flex;
+    gap: calc(var(--inner-page-gap) * 3);
+}
+
+.portfolio-project:nth-child(odd) {
+    justify-content: flex-end;
+}
+
+.outter-frame,
+.inner-frame {
+    height: var(--portfolio-image-height);
+    border: 2px solid white;
+}
+
+.outter-frame {
+    margin-left: var(--margin-outter-frame);
+    width: calc(var(--portfolio-image-width) + var(--margin-outter-frame));
+}
+
+.inner-frame {
+    width: var(--portfolio-image-width);
+    margin-bottom: var(--image-offset);
+    margin-left: calc(var(--image-offset) * 3);
+    margin-top: calc(var(--image-offset) * 3);
+    margin-right: calc(var(--image-offset) * 13);
+}
+
+.portolio-image {
+    width: var(--portfolio-image-width);
+    height: var(--portfolio-image-height);
+    background-color: rgba(0, 0, 0, 1);
+
+    margin-bottom: var(--image-offset);
+    margin-left: calc(var(--image-offset) * 2);
+    margin-top: calc(var(--image-offset) * 15);
+    margin-right: calc(var(--image-offset) * 2);
+}
+
+.project-info {
+    width: calc(var(--page-content-width) - var(--portfolio-image-width) - var(--inner-page-gap));
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* .project-info p {
+    width: 55ch;
+} */
