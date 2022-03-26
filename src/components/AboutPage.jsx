@@ -159,7 +159,7 @@ export const AboutPage = () => {
                         level.</p>
                     <p>
                         Graduated from a 6-months long intensive Bootcamp and
-                        open to new opportunities.
+                        looking for new opportunities.
                     </p>
                     <p>I'm currently located in Graubünden, Switzerland.</p>
                     <div className='tech-lists-container'>
