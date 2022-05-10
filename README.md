@@ -1,3 +1,3 @@
 # Portfolio Website
 
-This is my portfolio/personal website.
+This is my portfolio/personal website (in progress).
