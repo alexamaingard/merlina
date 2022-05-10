@@ -50,6 +50,7 @@
 .outter-frame {
     margin-left: var(--margin-outter-frame);
     width: calc(var(--portfolio-image-width) + var(--margin-outter-frame));
+    border: 1px solid white;
 }
 
 .inner-frame {
@@ -58,23 +59,45 @@
     margin-left: calc(var(--image-offset) * 3);
     margin-top: calc(var(--image-offset) * 3);
     margin-right: calc(var(--image-offset) * 13);
+    border: 1px solid white;
 }
 
 .portolio-image {
     width: var(--portfolio-image-width);
     height: var(--portfolio-image-height);
-    background-color: rgba(0, 0, 0, 1);
 
     margin-bottom: var(--image-offset);
     margin-left: calc(var(--image-offset) * 2);
     margin-top: calc(var(--image-offset) * 15);
     margin-right: calc(var(--image-offset) * 2);
+
+    background-color: black;
 }
 
 .project-info {
     width: calc(var(--page-content-width) - var(--portfolio-image-width) - var(--inner-page-gap));
     height: fit-content;
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.project-info a {
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+.project-info a:hover {
+    color: white;
+}
+
+.portolio-image img {
+    height: 200px;
+}
+
+.proj-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--inner-page-gap);
 }
 
 /* .project-info p {
