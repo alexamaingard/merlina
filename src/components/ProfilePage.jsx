@@ -9,8 +9,8 @@ export const ProfilePage = () => {
                     <h1>Alexa Maingard</h1>
                     <h2>I create things that live on the internet.</h2>
                     <p>
-                        Full Stack Software Developer with a background in social media management.
-                        Currently focused on ...
+                        Full Stack Software Developer with a background in social media management and teaching.
+                        Currently searching for new and exciting opportunities.
                     </p>
                 </div>
             </div>
