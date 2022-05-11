@@ -8,7 +8,16 @@ export const Portfolio = () => {
                 <div className='portfolio-project'>
                     <div className='outter-frame'>
                         <div className='inner-frame'></div>
-                        <div className='portolio-image'></div>
+                        <div className='portolio-image'>
+                            <img 
+                                src={
+                                    process.env.PUBLIC_URL +
+                                    `/assets/images/book-witch.png`
+                                } 
+                                alt='Book-Witch'
+                                id='book-witch'
+                            />
+                        </div>
                     </div>
                     <div className='project-info'>
                         <div className='proj-info-container'>
@@ -53,8 +62,7 @@ export const Portfolio = () => {
                                     process.env.PUBLIC_URL +
                                     `/assets/images/migraine-home.png`
                                 } 
-                                alt="Migraine-Witch"
-                                id='proj'
+                                alt='Migraine-Witch'
                             />
                         </div>
                     </div>
