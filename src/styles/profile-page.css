@@ -36,3 +36,9 @@
     font-size: 1.5rem;
     font-weight: 300;
 }
+
+@media screen and (max-width: 520px){
+    .profile-info {
+        width: 36ch;
+    }
+}

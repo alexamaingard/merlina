@@ -36,7 +36,7 @@ export const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className='portfolio-project'>
+                <div className='portfolio-project' id='reverse'>
                     <div className='project-info'>
                         <h3>Pokimo & King</h3>
                         <div className='proj-info-container'>
