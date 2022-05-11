@@ -37,8 +37,12 @@
     gap: calc(var(--inner-page-gap) * 3);
 }
 
-.portfolio-project:nth-child(odd) {
+.portfolio-project:nth-child(2n+1) {
     justify-content: flex-end;
+}
+
+.portfolio-project:nth-child(even) {
+    justify-content: flex-start;
 }
 
 .outter-frame,
@@ -104,6 +108,3 @@
     width: 300px;
 }
 
-/* .project-info p {
-    width: 55ch;
-} */
