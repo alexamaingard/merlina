@@ -118,7 +118,7 @@
         flex-direction: column-reverse;
     }
     .project-info {
-        width: 390px;
+        width: 360px;
         margin-bottom: calc(var(--inner-page-gap) * 2);
     }
 }
