@@ -6,6 +6,19 @@ export const AboutPage = () => {
             <div className='about-me-info'>
                 <div className='about-info-left'>
                     <h2>About me</h2>
+                    <div id='no-display-container'>
+                        <div className='circle' id='no-display'>
+                            <img
+                                className='profile-pic'
+                                id='no-display-pic'
+                                src={
+                                    process.env.PUBLIC_URL +
+                                    `/assets/images/lexy.jpg`
+                                }
+                                alt='profile pic'
+                            />
+                        </div>
+                    </div>
                     <p>
                         Hi! I'm Alexa. I'm sipping coffee
                         <svg viewBox='0 0 319.068 319.068'>
@@ -182,9 +195,10 @@ export const AboutPage = () => {
                     </div>
                 </div>
                 <div className='about-info-right'>
-                    <div id='circle'>
+                    <div className='circle' id='display'>
                         <img
-                            id='profile-pic'
+                            className='profile-pic'
+                            id='display-pic'
                             src={
                                 process.env.PUBLIC_URL +
                                 `/assets/images/lexy.jpg`
