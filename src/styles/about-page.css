@@ -139,6 +139,9 @@
         flex-direction: column;
         gap: 0;
     }
+    .about-info-left ul {
+        padding-top: 0;
+    }
 }
 
 @media screen and (max-width: 486px){
@@ -146,10 +149,6 @@
     #no-display-pic {
         width: calc(var(--circle-size) * 0.8);
         height: calc(var(--circle-size) * 0.8);
-    }
-
-    .about-info-left ul {
-        padding-top: 0;
     }
 }
 
