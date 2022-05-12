@@ -31,7 +31,7 @@ export const Portfolio = () => {
                                 target='_blank' 
                                 rel='noreferrer'
                             >
-                                See code &#10148;
+                                View code &#10148;
                             </a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export const Portfolio = () => {
                                 target='_blank' 
                                 rel='noreferrer'
                             >
-                                See code &#10148;
+                                View code &#10148;
                             </a>
                         </div>
                     </div>
@@ -88,13 +88,18 @@ export const Portfolio = () => {
                                 It's main purpose is to help migraine patients understand their condition 
                                 and pain better.
                             </p>
-                            <a 
-                                href='https://github.com/alexamaingard/migraine-witch' 
-                                target='_blank' 
-                                rel='noreferrer'
-                            >
-                                See code &#10148;
-                            </a>
+                            <div>
+                                <a href="https://migraine-witch.herokuapp.com/" id='live-demo'>
+                                        Live Demo &#10148;
+                                </a>
+                                <a 
+                                    href='https://github.com/alexamaingard/migraine-witch' 
+                                    target='_blank' 
+                                    rel='noreferrer'
+                                >
+                                    View code &#10148;
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

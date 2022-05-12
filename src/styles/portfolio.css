@@ -82,6 +82,7 @@
     width: calc(var(--page-content-width) - var(--portfolio-image-width) - var(--inner-page-gap));
     height: fit-content;
     background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
 }
 
 .project-info a {
@@ -106,6 +107,21 @@
 
 #book-witch {
     width: 300px;
+}
+
+.proj-info-container div {
+    display: flex;
+    gap: 20px;
+}
+
+.proj-info-container a {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1px 5px;
+}
+
+.proj-info-container a:hover {
+    border-color: white;
 }
 
 @media screen and (max-width: 1100px){
