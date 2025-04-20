@@ -1,4 +1,4 @@
-import Fade from 'react-reveal/Fade';
+import { motion } from 'framer-motion';
 
 import { AboutPage } from './components/AboutPage';
 import { Contact } from './components/Contact';
@@ -17,16 +17,42 @@ export const App = () => {
       <Header />
       <SocialMedia />
       <ProfilePage />
-      <Fade>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          duration: 1.5,
+          delay: 0.1,
+          ease: "easeInOut"
+        }}
+        viewport={{ once: true }}
+      >
         <AboutPage />
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          duration: 1,
+          delay: 0.1,
+          ease: "easeInOut"
+        }}
+        viewport={{ once: true }}
+      >
         <Portfolio />
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          duration: 1.5,
+          delay: 0.1,
+          ease: "easeInOut"
+        }}
+        viewport={{ once: true }}
+      >
         <Contact />
-      </Fade>
-      {/* <section>
-                <section className="portfolio-page" id="portfolio">
-                <h1>PORTFOLIO PAGE</h1>
-                </section>
-            </section> */}
+      </motion.div>
       <Footer />
     </div>
   );

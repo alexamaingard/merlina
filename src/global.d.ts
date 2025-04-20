@@ -8,9 +8,3 @@ declare module "*.svg" {
   const src: string;
   export default src;
 }
-
-declare module 'react-reveal/Fade' {
-  import * as React from 'react';
-  const Fade: React.ComponentType<any>;
-  export default Fade;
-}
