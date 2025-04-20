@@ -17,7 +17,7 @@ export const Contact = () => {
           <button
             id="say-hi"
             onClick={() =>
-              (window.location = 'mailto:maingard.alexa@gmail.com')
+              (window.location.href = 'mailto:maingard.alexa@gmail.com')
             }
           >
             I want to say hi!
