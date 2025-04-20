@@ -1,9 +1,9 @@
-import '../styles/footer.css'
+import '../styles/footer.css';
 
 export const Footer = () => {
-    return (
-        <div className='footer'>
-            <p>Copyright 2022 &#169; Alexa Maingard</p>
-        </div>
-    );
+  return (
+    <div className="footer">
+      <p>Copyright 2022 &#169; Alexa Maingard</p>
+    </div>
+  );
 };

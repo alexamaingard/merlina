@@ -1,45 +1,45 @@
 :root {
-    --sm-icon-base-transition: -49px;
+  --sm-icon-base-transition: -49px;
 }
 
 .social-media {
-	height: 12vh;
-	width: 5vw;
-	position: fixed;
-	left: 0;
-	right: 95vw;
-	top: 88vh;
-	z-index: 0;
+  height: 12vh;
+  width: 5vw;
+  position: fixed;
+  left: 0;
+  right: 95vw;
+  top: 88vh;
+  z-index: 0;
 }
 
 .social-media ul {
-	display: flex;
-	flex-direction: column;
-    justify-content: flex-end;
-	list-style: none;
-	padding: 10px;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 10px;
+  gap: 10px;
 }
 
 .social-media svg {
-	width: 32px;
-	height: 32px;
-    min-width: 24px;
+  width: 32px;
+  height: 32px;
+  min-width: 24px;
 }
 
 .social-media svg:hover {
-    fill: white;
-    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  fill: white;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-#top-sm-icon:hover{
-    transform: translate(0, var(--sm-icon-base-transition));
+#top-sm-icon:hover {
+  transform: translate(0, var(--sm-icon-base-transition));
 }
 
 #middle-sm-icon:hover {
-    transform: translate(0, calc(var(--sm-icon-base-transition) * 2));
+  transform: translate(0, calc(var(--sm-icon-base-transition) * 2));
 }
 
 #bottom-sm-icon:hover {
-    transform: translate(0, calc(var(--sm-icon-base-transition) * 3));
+  transform: translate(0, calc(var(--sm-icon-base-transition) * 3));
 }

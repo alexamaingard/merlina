@@ -1,9 +1,9 @@
 .footer {
-    padding-top: var(--page-gap);
-    height: 5vh;
-    width: 100vw;
-    line-height: 1.4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding-top: var(--page-gap);
+  height: 5vh;
+  width: 100vw;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
